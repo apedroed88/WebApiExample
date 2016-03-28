@@ -5,6 +5,14 @@ using Owin;
 using System;
 using System.Web.Http;
 
+/* Dependencias Necessarias
+Install-Package Microsoft.AspNet.WebApi.Owin
+Install-Package Microsoft.Owin.Host.SystemWeb
+Install-Package Microsoft.Owin.Security.OAuth
+Install-Package Microsoft.Owin.Cors
+*/
+
+
 namespace AutenticacaoWebApi
 {
     public class Startup
